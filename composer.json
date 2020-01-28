@@ -1,0 +1,26 @@
+{
+    "name": "maloja/pico-matomo",
+    "type": "pico-plugin",
+    "description": "This plugin will embed a Matomo web analytics tracking-code on all your Picocms pages .",
+    "keywords": [ "pico", "picocms", "picocms-plugin", "pico-matomo", "analytics", "matomo", "validation" ],
+    "homepage": "https://github.com/maloja/pico-matomo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maloja",
+            "homepage": "https://github.com/maloja/pico-matomo",
+            "role": "Lead Developer"
+        }
+    ],
+    "support": {
+        "docs": "http://picocms.org/docs/pico-http-params/",
+        "issues": "https://github.com/maloja/pico-matomo/issues",
+        "source": "https://github.com/maloja/pico-matomo"
+    },
+    "require": {
+        "php": ">=5.3.6"
+    },
+    "autoload": {
+        "classmap": [ "PicoMatomo.php" ]
+    }
+}
