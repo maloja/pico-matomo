@@ -1,7 +1,5 @@
 # pico-matomo
 
-Untested Alpha Version! Do not use it in productive environments.
-
 This Plugin will let you enjoy the power of Matomo web analytics for all your [Pico CMS](http://picocms.org) pages.
 
 ## Installation
