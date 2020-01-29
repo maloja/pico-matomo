@@ -1,4 +1,4 @@
-# pico-matomo
+# pico-matomo  (realy early alpha stage. Do not use in production environment)
 
 This Plugin will let you enjoy the power of Matomo web analytics for all your [Pico CMS](http://picocms.org) pages.
 
