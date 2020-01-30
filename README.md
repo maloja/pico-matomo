@@ -1,5 +1,7 @@
 # pico-matomo
 
+https://img.shields.io/github/v/release/maloja/pico-matomo?include_prereleases
+
 This Plugin will let you enjoy the power of Matomo web analytics for all your [Pico CMS](http://picocms.org) pages.
 
 ## Installation
