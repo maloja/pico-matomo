@@ -1,0 +1,33 @@
+name: 🐛 Bug Report
+description: Report an unexpected behavior or failure.
+title: "[Issue]:"
+labels: ["bug", "triage"]
+assignees:
+  - 
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A detailed description of unexpected behavior will help us address your issue more quickly. Do your best!
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: howto-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Explain the exact steps to reproduce this issue.
+      placeholder: "1. went here\n2. did this\n3. click there"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell

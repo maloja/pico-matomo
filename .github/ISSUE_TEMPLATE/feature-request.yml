@@ -1,0 +1,25 @@
+name: 🚀 Feature Request
+description:  Suggest a new idea or request a missing feature
+title: "[Feature:] "
+labels: ["bug", "triage"]
+assignees:
+  - 
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: problem-area
+    attributes:
+      label: Problem
+      description: Describe the problem that this new feature or idea is meant to address
+    validations:
+      required: true
+  - type: textarea
+    id: proposal-area
+    attributes:
+      label: Proposal
+      description: Describe the new feature or idea that you would like to propose and how it solves the problem
+    validations:
+      required: true
